@@ -224,6 +224,9 @@ int main()
     writeToFileBinaryCompres(tab, 5, "C1.txt");
     readfromFileBinaryCompres("C1.txt");
 
+    delete[] tab;
+    tab = nullptr;
+
 }
 
 #endif
